@@ -1,0 +1,178 @@
+/*======MOBILE FIRST======*/
+/*======MAIN======*/
+
+
+div.geheel  {
+    margin: 80px 10%;
+}
+
+div.eenTweede {
+    background-color: #293133;
+    color: white;
+    padding: 20px;
+    justify-content: center;
+    text-align: justify;
+    border-radius: 25px;
+    font-family: 'Quicksand', sans-serif;
+    margin: 25px;
+    font-weight: bold;
+}
+
+img.imageOverOns {
+    width: 90%;
+    margin: auto;
+    display: flex;
+
+}
+
+.contacteer_ons{
+    margin: 10px 0 10px 0;
+    font-weight: bold;
+}
+
+.recencies_tittel {
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.recencies {
+    height: 500px;
+    margin: 20px 6.5%;
+}
+
+.recencies p, .recencies h2, .recencies h3 {
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.recencies h1 {
+    margin-top: 10px;
+}
+
+.profielfoto {
+    display: flex;
+    margin: 15px auto auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #0082e6;
+}
+
+.profielfoto:hover{
+    box-shadow: 0 10px 80px #ccc;
+    border: 5px solid white;
+}
+
+.sterren{
+    margin-top: 20px;
+    text-align: center;
+    color: orangered;
+    font-size: 25px;
+}
+
+input.bericht {
+    height: 100px;
+}
+
+@media(min-width: 1250px){
+    #recencies {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+
+    .recencies {
+        margin: auto;
+        margin-top: 20px;
+        width: 500px;
+    }
+
+    .sterren{ font-size: 40px}
+}
+
+
+
+@media (min-width: 900px) {
+
+    div.geheel {
+        display: flex;
+        flex-direction: row;
+    }
+    div.eenTweede {
+        width: 60%;
+        height: fit-content;
+    }
+
+    div.tweeTweede {
+        width: 40%;
+        height: fit-content;
+        display: block;
+        align-self: center;
+    }
+}
+
+
+div.tweeTweede {
+
+}
+
+/*=================Form======================*/
+
+form {
+    color: white;
+}
+
+div.form {
+    justify-content: center;
+    margin: 20px;
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    margin: 10px auto;
+    background-color: whitesmoke;
+    border: 2px solid #0082e6;
+    border-radius: 10px;
+    font-family: 'Quicksand', sans-serif;
+    /*#e5e4e2;*/
+    font-size: 20px;
+}
+
+input {
+    width: 100%;
+    margin: 10px auto;
+    height: 40px;
+    background-color: whitesmoke;
+    border: 2px solid #0082e6;
+    border-radius: 10px;
+    font-family: 'Quicksand', sans-serif;
+            /*#e5e4e2;*/
+    font-size: 20px;
+}
+
+@media (min-width: 550px) {
+    input {
+        width: 90%;
+    }
+
+    textarea {
+        width: 90%;
+    }
+}
+
+@media (min-width: 900px) {
+    input {
+        width: 600px;
+    }
+
+    textarea {
+        width: 600px;
+    }
+}

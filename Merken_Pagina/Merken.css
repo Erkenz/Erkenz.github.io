@@ -1,0 +1,135 @@
+/*======MOBILE FIRST======*/
+
+/*======BODY======*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1a1a1a;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*======MAIN======*/
+
+.samenwerking_merken {
+    text-align: center;
+    color: white;
+}
+
+.samenwerking_merken p{
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.merken-meer_info {
+    margin-bottom: -320px
+}
+
+.merken-meer_info p {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.merken-meer_info .link1 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 75px 75px
+}
+
+.merken-meer_info .link2 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: bold;
+    border-radius: 0 0 10px 10px;
+    margin-top: -250px;
+    background-color: dimgray;
+    width: 350px;
+    height: 50px;
+    padding: 12px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.merken-meer_info a.link1:hover {
+    box-shadow: 1px 1px 35px -5px rgb(0, 130, 230);
+    /*transform: translate(250px);*
+    /*transition: all 0.6s ease-in-out 0s;*/
+}
+
+.merken-meer_info a.link2:hover {
+    background-color: rgb(0, 130, 230);
+    /*transform: translate(250px);*
+    /*transition: all 0.6s ease-in-out 0s;*/
+}
+
+.vespa {
+    height: 150px;
+    width: 200px;
+}
+
+.piaggio {
+    height: 150px;
+    width: 200px;
+}
+
+.yamaha {
+    height: 150px;
+    width: 200px;
+}
+
+.kymco {
+    height: 150px;
+    width: 200px;
+}
+
+.merken_info {
+    display: flex;
+    flex-direction: column;
+    margin: 6.5%;
+    color: white;
+}
+
+.merken_info p, .merken_info h3{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/*====== KLEUREN ======*/
+
+
+/*#0082e6  #1a1a1a  #293133*/
+
+
+/*======DESKTOP-NAVIGATION======*/
+
+@media (min-width: 1250px) {
+    /*======MAIN======*/
+    #merken {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+
+    .merken_showcase {
+        margin: -35px 10px;
+        width: 33%;
+    }
+
+    .merken_info{
+        margin:10px 6.5% 35px;
+    }
+}
+
+

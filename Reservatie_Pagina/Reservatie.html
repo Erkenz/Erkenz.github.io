@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Reservatie.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c65f6509a3.js" crossorigin="anonymous"></script>
+    <link class="logobrowser" rel="shortcut icon" href="../assets/scooter_Logo_V3.jpeg" type="image/x-icon">
+    <title>Reservatie</title>
+    <script defer src="Reservatie.js"></script>
+</head>
+<body>
+
+<form id="formDatum">
+    <h1>Kies u reservatie</h1>
+    <div class="kalender">
+        <div class="input1">
+            <label class="label1" for="begindatum">Begindatum <br>
+            <input  id="begindatum" type="date" name="reservatie1" required="" min=""></label>
+        </div>
+
+        <div class="input2">
+            <label class="label2" for="einddatum">Einddatum <br>
+            <input id="einddatum" type="date"  name="reservatie2" required="" min=""></label>
+        </div>
+    </div>
+    <div class="verzenden">
+        <input type="submit" id="verzenden" name="verzenden">
+    </div>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Homepagina.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c65f6509a3.js" crossorigin="anonymous"></script>
+    <link class="logobrowser" rel="shortcut icon" href="./assets/scooter_Logo_V3.jpeg" type="image/x-icon">
+    <title>Scobiel</title>
+</head>
+<header class="header-balk">
+    <a href="Login_Pagina/Login.html" class="login" id="loginKnop">Login / Registreren</a>
+    <a href="Account_Page/account.html" id="acountKnop"><img src="assets/user.png" alt="icoon voor naar uw account te gaan"></a>
+</header>
+
+<body>
+    <div class="preloader">
+        <img src="assets/loading.gif" alt="loader">
+    </div>
+
+    <div class="nav-container">
+        <div class="navbar">
+            <div class="inner_navbar">
+                <div class="logo">
+                    <img src="assets/scobiel_Logo_final_v2.png" alt="">
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a class="active menu-item" href="Homepagina.html">Home</a></li>
+                        <li><a class="menu-item" href="Over%20ons_Pagina/Over%20ons.html">Over ons</a></li>
+                        <li><a class="menu-item" href="Scooters_Pagina/Scooters.html">Scooters</a></li>
+                        <li><a class="menu-item" href="Merken_Pagina/Merken.html">Merken</a></li>
+                        <li><a class="dropdown-item menu-item reserveren" href="Product_Pagina/Product.html">Reserveer nu</a></li>
+                        <li><a class="dropdown-item menu-item inlogKnopMobile" href="Login_Pagina/Login.html">Login / Registreren</a></li>
+                        <li><a class="dropdown-item menu-item accKnopMobile" href="Account_Page/account.html">Account</a></li>
+                    </ul>
+                </div>
+
+                <a class="button" href="Product_Pagina/Product.html">Reserveer nu</a>
+
+                <div class="hamburger" onclick="toggleStyleNav(true)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header id="welkoms_foto">
+        <img class="foto" src="assets/Scooter%20Achtergrond.png" alt="achtergrond">
+    </header>
+    <main id="welkoms_pagina">
+        <div class="korte_uitleg">
+            <img src="" alt="">
+            <h1>Begin je rit met Scobiel</h1>
+            <p>Wie een onvergetelijke dag wil beleven in de mooiste plekken van Limburg, is bij Scobiel aan het juiste adres. Met een leuke huurscooter verken je op een avontuurlijke manier de mooie routes tussen Hasselt en Maasmechelen, langs verkeersluwe
+                landweggetjes, prachtige natuurlandschappen en natuurlijk ook tot de bekende streken waar je uren kunt rijden. Scobiel bezorgt je ongetwijfeld een zalig dagje eropuit. </p>
+        </div>
+        <div class="account">
+            <h2>Maak eerst een account</h2>
+            <div class="button-account_info">
+                <p><a href="Login_Pagina/Login.html">Registreer</a></p>
+            </div>
+        </div>
+        <div class="stappen">
+            <div class="stap1">
+                <h2>1. Kies uw voertuig</h2>
+                <p>Klaar om je stad te verkennen? Kies één van onze prachtige scooters uit onze assortiment. U kunt een keuze maken uit 50cc scooters deze zijn ideaal om je te verplaatsen in de stad of 125cc scooters deze zijn praktisch voor langere reizen.
+                </p>
+            </div>
+            <div class="stap2">
+                <h2>2. Reserveer</h2>
+                <p>Onze scooters zijn eenvoudig te reserveren, registreer nu via onze website en u ontvangt een bevestiging van uw reservatie. Als alternatief, kunt u ons ook bellen of ons een bericht sturen voor andere boekingsmogelijkheden.
+                </p>
+            </div>
+            <div class="stap3">
+                <i class="fa-solid fa-circle-1"></i>
+                <h2>3. Ophalen of afleveren</h2>
+                <p>Wij kunnen u scooter overal bezorgen dan bespaart uzelf een heleboel tijd om de scooter bij ons af te halen. Op een tijdstip dat bij u past of haal de scooter bij onze op de zaak.</p>
+            </div>
+        </div>
+        <div id="product_info">
+            <div class="productkaarten">
+                <div class="scooter">
+                    <img class="vespa" src="assets/Vespa%20Scooter.webp" alt="vespa scooter">
+                </div>
+                <div class="tekst">
+                    <h1>Vespa Primavera</h1>
+                    <p>De Vespa Primavera behoort absoluut tot de topklasse. Degelijkheid, betrouwbaarheid en design worden samengebracht in dit ontwerp.</p>
+                </div>
+                <div class="meer_info">
+                    <div class="button-meer_info">
+                        <p><a href="">Meer Info</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="productkaarten">
+                <div class="scooter">
+                    <img class="vespa" src="assets/Z_1.png" alt="vespa scooter">
+                </div>
+                <div class="tekst">
+                    <h1>Kymco Agility</h1>
+                    <p>De hedendaagse "Urban" design is de Agility 50 de ideale scooter voor personen die vlot tussen de auto's willen rijden. Een unieke look voor zijn klasse beschikt.</p>
+                </div>
+                <div class="meer_info">
+                    <div class="button-meer_info">
+                        <p><a href="">Meer Info</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="productkaarten">
+                <div class="scooter">
+                    <img class="vespa" src="assets/tmax.png" alt="vespa scooter">
+                </div>
+                <div class="tekst">
+                    <h1>Yamaha XMAX 125 </h1>
+                    <p>De Yamaha X-MAX 125 Tech Max is een unieke versie van de X-MAX. Uitgerust met tal van geweldige functies, deze Sport Scooter is ontworpen voor diegenen die dagelijks rondrijden.</p>
+                </div>
+                <div class="meer_info">
+                    <div class="button-meer_info">
+                        <p><a href="">Meer Info</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="naarBoven" onclick="topFunction()">
+            <p><i class="arrow up"></i></p>
+        </div>
+    </main>
+    <footer>
+        <div class="footer" style="width: 80%">
+            <div class="flex center">
+                <div class="margin EenDerde">
+                    <p class="footer">Maandag: gesloten</p>
+                    <p class="footer">Dinsdag - Zaterdag: 8u-18u30</p>
+                    <p class="footer">Zondag: 9u-20u</p>
+                </div>
+
+                <div class="margin EenDerde">
+                    <p class="footer">Kempische Steenweg 293, 3500 Hasselt</p>
+                    <p class="footer">Tel: +0486 62 52 24</p>
+                    <p class="footer">E-mail: scobielteam11@gmail.com</p>
+                </div>
+
+                <div class="margin EenDerde">
+                    <a class="footer" href="./Homepagina.html">Home</a>
+                    <a class="footer" href="./Over%20ons_Pagina/Over%20ons.html">Over ons</a>
+                    <a class="footer" href="./Product_Pagina/Product.html">Reserveer nu</a>
+                </div>
+            </div>
+            <div class="margin center">
+                <p class="footer">Scobiel © 2022 – Alle rechter voorbehouden.</p>
+                <p class="footer">Webshop gemaakt door Team11</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="Homepagina.js"></script>
+</body>
+
+</html>

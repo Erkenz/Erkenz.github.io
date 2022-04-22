@@ -1,0 +1,425 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1a1a1a;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.productkaarten {
+    height: 1000px;
+    width: auto;
+    background-color: #293133;
+    border-radius: 25px;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    margin-top: 400px;
+    margin-bottom: 20px;
+}
+
+#product_geheel2 {
+    margin-top: 15px;
+}
+
+.product_info {
+    margin-top: 20px;
+}
+
+.scooterModel {
+    display: flex;
+    flex-direction: column;
+}
+
+.sct1 {
+    width: 350px;
+    height: 350px;
+    margin: -20px auto auto;
+    z-index: 1;
+}
+
+.sct2 {
+    width: 400px;
+    height: 400px;
+    margin: -15px auto auto;
+    z-index: 1;
+    display: none;
+}
+
+.sct3 {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto auto;
+    z-index: 1;
+    display: none;
+}
+
+.sct4 {
+    width: 400px;
+    height: 350px;
+    margin: -20px auto auto;
+    z-index: 1;
+}
+
+.sct5 {
+    width: 350px;
+    height: 350px;
+    margin: 20px auto auto;
+    z-index: 1;
+    display: none;
+}
+
+.sct6 {
+    width: 350px;
+    height: 390px;
+    margin: 20px auto auto;
+    z-index: 1;
+    display: none;
+}
+
+#totaal-info {
+    margin-top: 80px;
+}
+
+.img_btn {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.img_btn1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#btn_img_1 {
+    background-color: #0082e6;
+    border-radius: 20px;
+    border: solid 3px black;
+}
+
+#btn_img_2, #btn_img_3 {
+    border-radius: 20px;
+    border: solid 3px black;
+}
+
+.img_btn button {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.img_btn1 button {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+#btn_img_2:hover, #btn_img_3:hover {
+    background-color: gray;
+    border-radius: 10px;
+    border: solid 3px black;
+    transition: background-color 0.6s, transform 250s;
+}
+
+.informatie {
+    text-align: center;
+    color: white;
+}
+
+.informatie p {
+    margin: 7px;
+    height: 94px;
+    font-weight: 700;
+
+}
+
+.kenmerken {
+    margin-top: 75px
+}
+
+.letterkleur {
+    color: gray;
+}
+
+.spatie1 {
+    border-bottom: 3px solid black;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.spatie2 {
+    border-bottom: 3px solid black;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.opsomming {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+i.fas.fa-user-friends, i.fas.fa-motorcycle,
+i.fas.fa-horse-head, i.fas.fa-gas-pump, i.fa.fa-dashboard,
+i.fa.fa-drivers-license-o, i.fa.fa-vcard-o, i.fas.fa-map-marker-alt,
+i.fas.fa-hard-hat {
+    display: flex;
+    font-size: 15px;
+    margin-top: 5px;
+    align-items: baseline;
+
+}
+
+i.fas.fa-user-friends,
+i.fas.fa-horse-head,
+i.fa.fa-vcard-o, i.fas.fa-gas-pump,
+i.fas.fa-map-marker-alt {
+    color: gray;
+}
+
+i.fas.fa-motorcycle,
+i.fa.fa-dashboard,
+i.fa.fa-drivers-license-o,
+i.fas.fa-hard-hat {
+    color: #0082e6;
+
+}
+
+.lijst {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 5px;
+    list-style-type: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.prijs {
+    position: absolute;
+    left: 58%;
+    top: 108%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #0082e6;
+    border: 5px solid gray;
+}
+
+.prijs p {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.reserveren {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.reserveer-meer_info a:hover {
+    transform: translate(250px);
+    width: 100px;
+    font-weight: bold;
+    transition: all 0.6s ease-in-out 0s;
+    background: white;
+    color: #0082e6;
+}
+
+.reserveer-meer_info a {
+    background-color: rgb(0, 130, 230);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 15px 40px
+}
+
+.reserveer-meer_info p {
+    margin-top: 25px;
+}
+
+
+#product_info1{
+    margin-top: 50px;
+}
+
+.productkaarten1 {
+    height: 1000px;
+    width: auto;
+    background-color: #293133;
+    border-radius: 25px;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    margin-bottom: 20px;
+}
+
+.prijs1 {
+    position: absolute;
+    left: 58%;
+    top: 258%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #0082e6;
+    border: 5px solid gray;
+}
+
+.prijs1 p {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-weight: bold;
+}
+.img_btn1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#btn_img_4 {
+    background-color: #0082e6;
+    border-radius: 20px;
+    border: solid 3px black;
+}
+
+#btn_img_5, #btn_img_6 {
+    border-radius: 20px;
+    border: solid 3px black;
+}
+
+#btn_img_5:hover, #btn_img_6:hover {
+    background-color: gray;
+    border-radius: 10px;
+    border: solid 3px black;
+    transition: background-color 0.6s, transform 250s;
+}
+
+#totaal-info1{
+
+}
+
+#product_geheel3 {
+    margin-top: 80px;
+}
+
+
+@media (min-width: 1250px)  {
+    /*======MAIN======*/
+    .productkaarten {
+        height: 550px;
+        margin-top: -15px;
+    }
+
+    .sct1 {
+        margin-left: 0;
+    }
+
+    .sct2 {
+        margin-left: 15px;
+    }
+
+    .sct3 {
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+
+    .prijs {
+        position: absolute;
+        top: 58%;
+        left: 22%;
+    }
+
+    .img_btn {
+        position: absolute;
+        left: 18%;
+        top: 85%;
+    }
+
+    #totaal-info {
+        margin-top: 80px;
+    }
+
+    .informatie {
+        text-align: right;
+        width: 50%;
+        margin-left: 45%;
+        margin-top: -30%;
+    }
+
+    .kenmerken {
+        margin-top: 40px;
+    }
+
+    .spatie1 {
+        width: 500px;
+        margin-left: 57%;
+    }
+
+    .opsomming {
+        justify-content: right;
+        margin-right: 60px;
+    }
+
+    .spatie2 {
+        width: 500px;
+        margin-left: 57%;
+    }
+
+    .reserveren {
+        justify-content: right;
+        margin-right: 60px;
+        margin-top: 15px;
+    }
+
+    .productkaarten1 {
+        height: 550px;
+        margin-top: -15px;
+    }
+
+    .img_btn1 {
+        position: absolute;
+        left: 18%;
+        top: 170%;
+    }
+
+    #totaal-info1 {
+        margin-top: 80px;
+    }
+
+    .prijs1 {
+        position: absolute;
+        top: 145%;
+        left: 22%;
+    }
+
+    .sct4 {
+        margin-left: 0;
+    }
+
+    .sct5 {
+        margin-left: 15px;
+    }
+
+    .sct6 {
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+
+}
+
+
+
+

@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1a1a1a;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#formDatum h1 {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: -200px;
+}
+
+.kalender {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+}
+
+.verzenden {
+    display: flex;
+}
+
+
+.input1 {
+    margin-top: 100px;
+}
+
+.input2 {
+    margin-top: 300px;
+}
+
+.label1 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.label2 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+#begindatum {
+    background: #0082e6 url("../assets/Calander Icon Juiste2.jpg");
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    font-family: 'Quicksand', sans-serif;
+    padding: 15px;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 450px;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px auto auto;
+}
+
+#begindatum:hover{
+    background: white url("../assets/Calander Icon Juiste3.jpg");
+    color: #0082e6;
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+#einddatum {
+    background: #0082e6 url("../assets/Calander Icon Juiste2.jpg");
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    font-family: 'Quicksand', sans-serif;
+    padding: 15px;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 450px;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px auto auto;
+}
+
+#einddatum:hover{
+    background: white url("../assets/Calander Icon Juiste3.jpg");
+    color: #0082e6;
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+input[type="submit"] {
+    padding: 15px;
+    margin: 300px auto auto;
+    border-radius: 10px;
+    border: solid #0082e6;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #0082e6;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    border: solid white;
+    color: #0082e6;
+}
+
+input:focus {
+    border: 3px solid #000000;
+}
+
+
+#begindatum::-webkit-calendar-picker-indicator {
+    opacity: 0;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#einddatum::-webkit-calendar-picker-indicator {
+    opacity: 0;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+@media screen and (min-width: 500px) {
+    .kalender {
+        display: flex;
+        flex-direction: inherit;
+        justify-content: space-around;
+    }
+
+
+    .verzenden {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .input1 {
+        margin: 0;
+        text-align: center;
+        margin-top: 300px;
+    }
+
+    .input2 {
+        margin: 0;
+        text-align: center;
+        margin-top: 300px;
+    }
+}

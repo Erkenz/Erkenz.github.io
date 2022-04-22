@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./../assets/scooter_Logo_V3.jpeg" type="image/x-icon">
+    <link href='https://css.gg/css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Scobiel | Wachtwoord veranderen</title>
+</head>
+<body>
+<div id="cfWachtwoord" class="containerform">
+    <form id="wachtwoordForm">
+        <h2 id="wwText">Wachtwoord veranderen</h2>
+        <button onclick="history.back()" id="submitWachtwoordBtn" class="submit"><i class="gg-arrow-right"></i></button>
+        <input type="password" id="pass" name="pass" placeholder="wachtwoord" required/>
+        <input type="password" id="passConfirm" placeholder="Bevestig wachtwoord" required/>
+        <div id="message">
+            <h3>Wachtwoord komt niet overeen!</h3>
+        </div>
+    </form>
+</div>
+
+<script src="ww_veranderen.js"></script>
+</body>
+</html>

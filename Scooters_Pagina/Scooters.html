@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scooters</title>
+    <link rel="shortcut icon" href="./../assets/scooter_Logo_V3.jpeg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Homepagina.css">
+    <link rel="stylesheet" href="Scooters.css">
+
+</head>
+<header class="header-balk">
+    <a href="../Login_Pagina/Login.html" class="login" id="loginKnop">Login / Registreren</a>
+    <a href="../Account_Page/account.html" id="acountKnop"><img src="../assets/user.png" alt="icoon voor naar uw account te gaan"></a>
+</header>
+<body>
+<div class="nav-container">
+    <div class="navbar">
+        <div class="inner_navbar">
+            <div class="logo">
+                <img src="./../assets/scobiel_Logo_final_v2.png" alt="">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a class="active menu-item" href="../Homepagina.html">Home</a></li>
+                    <li><a class="menu-item" href="./../Over%20ons_Pagina/Over%20ons.html">Over ons</a></li>
+                    <li><a class="menu-item" href="Scooters.html">Scooters</a></li>
+                    <li><a class="menu-item" href="../Merken_Pagina/Merken.html">Merken</a></li>
+                    <li><a class="dropdown-item menu-item reserveren" href="../Product_Pagina/Product.html">Reserveer nu</a></li>
+                    <li><a class="dropdown-item menu-item inlogKnopMobile" href="../Login_Pagina/Login.html">Login / Registreren</a></li>
+                    <li><a class="dropdown-item menu-item accKnopMobile" href="../Account_Page/account.html">Account</a></li>
+                </ul>
+            </div>
+
+            <label class="button"><a href="../Product_Pagina/Product.html">Reserveer nu</a></label>
+
+            <div class="hamburger" onclick="toggleStyleNav(true)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="container">
+    <div class="container">
+        <div class="card">
+            <div class="item_image">
+                <img class="img" src="./../assets/Vespa Scooter.webp" alt="">
+            </div>
+            <div class="item_details">
+                <ul>
+                    <li>
+                        <h1 class="item_title">Vespa Primavera</h1>
+                    </li>
+                    <li>
+                        <p class="item_description">
+                            De Vespa Primavera behoort absoluut tot de topklasse. Degelijkheid, betrouwbaarheid en design worden
+                            samengebracht in dit ontwerp.
+
+                        </p>
+                    </li>
+                    <li class="test">
+                        <ul id="eigenschappen">
+                            <li class="item_gegevens">
+                               20 euro
+                            </li>
+                            <li class="item_gegevens">
+                                50 cc
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="user_inputs">
+
+                <button class="item_reserveren"><h2>Reserveer</h2></button>
+
+            </div>
+        </div>
+        <div class="card">
+            <div class="item_image">
+                <img class="img" src="./../assets/Z_1.png" alt="">
+            </div>
+            <div class="item_details">
+                <ul>
+                    <li>
+                        <h1 class="item_title">Kymco Agility</h1>
+                    </li>
+                    <li>
+                        <p class="item_description">
+                            De hedendaagse "Urban" design is de Agility 50 de ideale scooter voor personen die vlot tussen de
+                            auto's willen rijden. Een unieke look voor zijn klasse beschikt.
+
+                        </p>
+                    </li>
+                    <li class="test">
+                        <ul class="eigenschappen">
+
+                            <li class="item_gegevens">
+                                20 euro
+                            </li>
+                            <li class="item_gegevens">
+                                50 cc
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="user_inputs">
+
+                <button class="item_reserveren"><h2>Reserveer</h2></button>
+
+            </div>
+        </div>
+        <div class="card">
+            <div class="item_image">
+                <img class="img" src="./../assets/tmax.png" alt="">
+            </div>
+            <div class="item_details">
+                <ul>
+                    <li>
+                        <h1 class="item_title">Yamaha XMAX 125</h1>
+                    </li>
+                    <li>
+                        <p class="item_description">
+                            De Yamaha X-MAX 125 Tech Max is een unieke versie van de X-MAX. Uitgerust met tal van geweldige
+                            functies, deze Sport Scooter is ontworpen voor diegenen die dagelijks rondrijden.
+
+                        </p>
+                    </li>
+                    <li class="test">
+                        <ul class="eigenschappen">
+                            <li class="item_gegevens">
+                                20 euro
+                            </li>
+                            <li class="item_gegevens">
+                                50 cc
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="user_inputs">
+
+                <button class="item_reserveren"><h2>Reserveer</h2></button>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="footer" style="width: 80%">
+        <div class="flex center">
+            <div class="margin EenDerde">
+                <p class="footer">Maandag: gesloten</p>
+                <p class="footer">Dinsdag - Zaterdag: 8u-18u30</p>
+                <p class="footer">Zondag: 9u-20u</p>
+            </div>
+
+            <div class="margin EenDerde">
+                <p class="footer">Kempische Steenweg 293, 3500 Hasselt</p>
+                <p class="footer">Tel: +0486 62 52 24</p>
+                <p class="footer">E-mail: scobielteam11@gmail.com</p>
+            </div>
+
+            <div class="margin EenDerde">
+                <a class="footer" href="../Homepagina.html">Home</a>
+                <a class="footer" href="../Over%20ons_Pagina/Over%20ons.html">Over ons</a>
+                <a class="footer" href="../Product_Pagina/Product.html">Reserveer nu</a>
+            </div>
+        </div>
+
+        <div class="margin center">
+            <p class="footer">Scobiel © 2022 – Alle rechter voorbehouden.</p>
+            <p class="footer">Webshop gemaakt door Team11</p>
+        </div>
+    </div>
+</footer>
+
+
+
+<script src="../Homepagina.js"></script>
+</body>
+</html>

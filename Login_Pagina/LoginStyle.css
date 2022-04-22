@@ -1,0 +1,135 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*#0082e6  #1a1a1a  #293133*/
+
+body {
+    background-color: #1a1a1a;
+}
+
+@media screen and (min-width: 500px) {
+    .containerkeuze {
+        text-align: center;
+    }
+    h2 {
+        cursor: pointer;
+        color: rgba(255, 255, 255, .8);
+        display: inline-block;
+        margin: 10px;
+        text-decoration: underline 2px;
+    }
+    #loginBtn {
+        text-decoration: underline 5px #0082e6;
+    }
+    /* #signinBtn {} */
+    h2:hover {
+        text-decoration: underline 5px #0082e6;
+    }
+    #logintext {
+        cursor: auto;
+        color: rgba(255, 255, 255, .8);
+        margin-left: 15px;
+        text-decoration: none;
+    }
+    form {
+        position: relative;
+        margin: 40px auto;
+        width: 380px;
+        height: auto;
+    }
+    input {
+        padding: 16px;
+        border-radius: 7px;
+        border: 0px;
+        background: #293133;
+        display: block;
+        margin: 15px;
+        width: 300px;
+        color: white;
+        font-size: 18px;
+        height: 54px;
+    }
+    input:focus {
+        outline-color: rgba(0, 0, 0, 0);
+        background: rgba(255, 255, 255, 0.8);
+        color: #0082e6;
+    }
+    #submitLoginBtn {
+        cursor: pointer;
+        float: right;
+        height: 121px;
+        width: 50px;
+        border: 0px;
+        background: #0082e6;
+        border-radius: 7px;
+        padding: 10px;
+        margin-top: 65px;
+        color: white;
+        font-size: 22px;
+    }
+    #submitLoginBtn:hover {
+        background-color: #293133;
+        border: solid 2px #0082e6;
+        transform: scale(1.05);
+    }
+    #submitRegisterBtn {
+        cursor: pointer;
+        float: right;
+        height: 260px;
+        width: 50px;
+        border: 0px;
+        background: #0082e6;
+        border-radius: 7px;
+        padding: 10px;
+        margin-top: 65px;
+        color: white;
+        font-size: 22px;
+    }
+    #submitRegisterBtn:hover {
+        background-color: #293133;
+        border: solid 2px #0082e6;
+        transform: scale(1.05);
+    }
+    button {
+        cursor: pointer;
+        margin-top: 10px;
+        background: none;
+        border: none;
+    }
+    .gg-lock-unlock {
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .gg-lock {
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    #message {
+        margin-left: 20px;
+        margin-bottom: 20px;
+        display: none;
+        color: aliceblue;
+    }
+    #emailbestaatal {
+        margin-left: 20px;
+        display: none;
+        color: aliceblue;
+        text-align: left;
+    }
+    #loginMessage {
+        margin-left: 20px;
+        margin-bottom: 20px;
+        display: none;
+        color: aliceblue;
+    }
+    #cfRegister {
+        display: none;
+    }
+}

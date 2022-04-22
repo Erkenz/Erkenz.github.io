@@ -1,0 +1,519 @@
+/*======BODY======*/
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background: #1a1a1a;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*=====HEADER-BALK=====*/
+.header-balk {
+    height: 35px;
+    background: #1a1a1a;
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+    align-content: center;
+}
+
+.header-balk img {
+    background: white;
+    border-radius: 50px;
+    height: 30px;
+    padding: 2px;
+    margin: 3px 20px 3px 3px;
+}
+
+.header-balk img:hover {
+    background: #0082e6;
+
+}
+
+.header-balk .login {
+    color: white;
+    background: #0082e6;
+    padding: 3px 10px;
+    border-radius: 15px;
+    margin: 3px 10px 3px 3px;
+}
+
+.header-balk .login:hover {
+    color: #0082e6;
+    background: white;
+
+}
+
+.header-balk {
+    display: none;
+}
+
+/*======NAVIGATION======*/
+.navbar {
+    width: 75%;
+    height: 75px;
+    background: #293133;
+    margin: 60px auto;
+    padding: 0 25px;
+    border-radius: 15px;
+}
+
+.inner_navbar img {
+    height: 65px;
+}
+
+.navbar .inner_navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+
+}
+
+.navbar .inner_navbar {
+    flex-direction: row;
+}
+
+.navbar .logo a {
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.navbar .menu {
+    display: none;
+}
+
+.navbar .menu {
+    display: none;
+}
+
+.navbar .menu.active {
+    display: block;
+}
+
+.navbar .menu ul {
+    position: absolute;
+    top: 135px;
+    left: 12.5%;
+    display: block;
+    background: #293133;
+    border-radius: 0 0 15px 15px;
+    width: 75%;
+}
+
+.navbar .menu ul li {
+    padding: 10px;
+}
+
+.navbar .menu ul li a {
+    margin-right: 0;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.navbar .hamburger {
+    display: block;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.navbar .hamburger:hover {
+    color: #0082e6;
+}
+
+
+.button {
+    display: none;
+}
+
+.menu .dropdown-item {
+    display: block;
+}
+
+.menu ul li a:last-child:hover {
+    background: white;
+    color: #0082e6;
+}
+
+.navbar .menu-item:hover {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.7s;
+    margin: 4px 1px;
+    color: #0082e6;
+}
+
+.button,
+.dropdown-item {
+    background: #0082e6;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+}
+
+.menu .reserveren {
+    background: #293133;
+}
+
+.button {
+    display: none;
+}
+
+.button a{
+    color: white;
+}
+.button a:hover{
+    color: #0082e6;
+}
+
+.hamburger {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #0082e6;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+/*!*======PRODUCT-PAGINA======*!*/
+
+.product-page{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+}
+.filters{
+    text-align: center;
+    display: block;
+    width: 50%;
+}
+.filters p{
+    background: #0082e6;
+    border-radius: 15px;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 0 40px 0;
+}
+.filters p:hover{
+        background-color: #293133;
+        border: #0082e6 solid 2px;
+}
+
+.zoek-container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: -400px;
+    top: 0;
+    width: 250px;
+    background: white;
+    height: 100%;
+    transition: 0.5s;
+
+}
+
+.zoek-container h3{
+    margin: 50px  auto 10px auto;
+    font-size: 20px;
+}
+.specificaties
+{
+    margin: 0 0 10px 10px;
+    justify-content: space-between;
+}
+.close {
+    position: absolute;
+    display: block;
+    right: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+}
+.close:hover {
+    opacity: 1;
+}
+.close:before, .close:after {
+    position: absolute;
+    left: 35px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    top: 5px;
+    background-color: black;
+}
+.close:before {
+    transform: rotate(45deg);
+}
+.close:after {
+    transform: rotate(-45deg);
+}
+.knop{
+    width: 90%;
+    margin: auto auto 0 auto;
+}
+.knop p{
+    font-size: 15px;
+    padding: 5px;
+}
+.product-page{
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+}
+
+.product-kaarten{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+
+/*======Product cards======*/
+
+ul {
+    list-style: none;
+}
+.container{
+    text-align: center;
+}
+.card {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #293133;
+    border-radius: 25px;
+    margin: 0 0 40px 0;
+    width: 100%;
+    height: auto;
+
+}
+
+.card:hover {
+    transform: scale(1.02)
+}
+
+.item_details {
+    margin: auto;
+}
+
+@media (min-width: 650px) {
+    .item_details {
+        width: 350px;
+    }
+}
+
+.product-img {
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.item_reserveren {
+    cursor: pointer;
+    color: azure;
+    background-color: #0082e6;
+    border: #0082e6;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.item_reserveren:hover {
+    background-color: #293133;
+    border: #0082e6 solid 2px;
+}
+
+
+/*====Terug naar boven knop=====*/
+#naarBoven{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #0082e6;
+    opacity: 0.75;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+    display: none;
+
+
+}
+#naarBoven:hover{
+    background: white;
+    color: black;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 15px 15px 0;
+    display: inline-block;
+    padding: 15px;
+    margin: 15px 10px;
+}
+
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+
+
+
+
+
+
+/*======DESKTOP-VIEW======*/
+
+
+@media (min-width: 1250px) {
+
+    .header-balk {
+        display: flex;
+        justify-content: end;
+        align-content: center;
+    }
+
+    .navbar .menu {
+        display: block;
+    }
+
+    .navbar .inner_navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+    }
+
+    .navbar .menu ul {
+        display: flex;
+        position: static;
+        align-content: baseline;
+    }
+
+    .navbar .menu ul li a {
+        width: 110px;
+    }
+
+    .navbar .menu ul li a:hover {
+        background: #0082e6;
+        padding: 10px;
+        border-radius: 10px;
+        transition: 0.7s;
+        margin: 4px 1px;
+        color: white;
+    }
+
+    .menu .dropdown-item:last-child {
+        display: none;
+    }
+
+    .button {
+        cursor: pointer;
+        display: block;
+    }
+    .button:hover {
+        background-color: #293133;
+        border: #0082e6 solid 2px;
+    }
+
+    .navbar .hamburger {
+        display: none;
+    }
+
+
+    /*======SPECIFICATIES======*/
+    .product-page{
+        display: flex;
+        flex-direction: row;
+    }
+    .product-page:nth-child(2){
+        left:0;
+    }
+    .zoek-container{
+        position: relative;
+        left:0;
+        margin-left: 3% ;
+        margin-right: 20px;
+        margin-bottom: 50px;
+        border-radius: 15px ;
+        background: #293133;
+        padding: 20px;
+        width: 30%;
+    }
+
+    .zoek-container h3{
+        color: white;
+    }
+    .specificaties{
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        margin: 10px 0 20px 0;
+    }
+    .specificaties label{
+        color: white;
+    }
+    .filters{
+        display: none;
+    }
+    .close{
+        display: none;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="account.css">
+    <script defer src="../Homepagina.js"></script>
+    <script defer src="account.js"></script>
+    <title>Scobiel | Account</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="top">
+            <div id="terugNavigeren" onclick="history.back()">
+                <p><i class="arrow left"></i></p>
+            </div>
+            <div class="account-title">
+                <h1>Mijn account</h1>
+            </div>
+        </div>
+        <div class="info-container">
+            <div class="row">
+                <div class="info">
+                    <p class="info-titel">Account naam</p>
+                    <p class="Account_naam naam"></p>
+                    <label><input id="input_naam" type="text" value=""></label>
+                    <div class="submit_naam knop bewerken">
+                        <button onclick="NameChangePost()">Opslaan</button>
+                        <button onclick="annuleren()">Annuleren</button>
+                    </div>
+                </div>
+                <div class="bewerken knop">
+                    <div class="bewerken_naam">
+                        <button>Bewerken</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="info">
+                    <p class="info-titel">E-mail</p>
+                    <p class="Account_email email" id="emailaccount"></p>
+                    <label><input id="input_email" type="text" value=""></label>
+                    <div class="submit_email knop bewerken">
+                        <button onclick="EmailChangePost()">Opslaan</button>
+                        <button onclick="annulerenEmail()">Annuleren</button>
+                    </div>
+                </div>
+                <div class="bewerken knop">
+                    <div class="bewerken_email">
+                        <button>Bewerken</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="info">
+                    <p class="info-titel">Wachtwoord</p>
+                    <p id="Account_wachtwoord"></p>
+                </div>
+                <div class="bewerken knop">
+                    <a href="../Wachtwoord_Veranderen/wachtwoord_veranderen.html"><button>Bewerken</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="uitloggen ">
+            <button id="uitloggen">Uitloggen</button>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>

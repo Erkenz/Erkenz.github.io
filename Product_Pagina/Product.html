@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stye.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./../assets/scooter_Logo_V3.jpeg" type="image/x-icon">
+    <script defer src="product.js"></script>
+    <title>Ons aanbod</title>
+    <link rel="stylesheet" href="../Homepagina.css">
+</head>
+<header class="header-balk">
+    <a href="../Login_Pagina/Login.html" class="login" id="loginKnop">Login / Registreren</a>
+    <a href="../Account_Page/account.html" id="acountKnop"><img src="../assets/user.png" alt="icoon voor naar uw account te gaan"></a>
+</header>
+<body>
+
+<div class="nav-container">
+    <div class="navbar">
+        <div class="inner_navbar">
+            <div class="logo">
+                <img src="../assets/scobiel_Logo_final_v2.png" alt="">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a class="active menu-item" href="../Homepagina.html">Home</a></li>
+                    <li><a class="menu-item" href="../Over%20ons_Pagina/Over%20ons.html">Over ons</a></li>
+                    <li><a class="menu-item" href="../Scooters_Pagina/Scooters.html">Scooters</a></li>
+                    <li><a class="menu-item" href="../Merken_Pagina/Merken.html">Merken</a></li>
+                    <li><a class="dropdown-item menu-item reserveren" href="Product.html">Reserveer nu</a></li>
+                    <li><a class="dropdown-item menu-item inlogKnopMobile" href="../Login_Pagina/Login.html">Login / Registreren</a></li>
+                    <li><a class="dropdown-item menu-item accKnopMobile" href="../Account_Page/account.html">Account</a></li>
+                </ul>
+            </div>
+
+            <a class="button"  href="../Product_Pagina/Product.html">Reserveer nu</a>
+
+            <div class="hamburger" onclick="toggleStyleNav(true)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="product-page">
+    <div class="filters">
+        <p onclick="toggleStyleFilter(true)" class="filterKnop"> Filters toevoegen</p>
+    </div>
+    <div class="zoek-container">
+        <a onclick="toggleStyleFilter(false)" href="#" class="close"></a>
+        <h3>Filters</h3>
+        <div class="specificaties">
+            <div>
+                <label><input onClick="toggle('vespa');" checked type="checkbox">Vespa</label>
+            </div>
+            <div>
+                <label><input onClick="toggle('piaggio');" checked type="checkbox">Piaggio</label>
+            </div>
+            <div>
+                <label><input onClick="toggle('yamaha');" checked type="checkbox">Yamaha</label>
+            </div>
+            <div>
+                <label><input onClick="toggle('kymco');" checked type="checkbox">Kymco</label>
+            </div>
+            <div>
+                <label for="PK">PK</label>
+                <input type="range" min="1" max="100" value="50" class="slider" id="PK">
+            </div>
+            <div>
+                <label for="zoeken">Zoekbar</label>
+                <input type="text" id="zoeken">
+            </div>
+
+        </div>
+        <div class="filters knop">
+            <p onclick="toggleStyleFilter(false)">Filters toevoegen</p>
+        </div>
+    </div>
+        <div class="product-kaarten">
+            <div class="container" id="_vespa_sprint_">
+                <div class="card">
+                    <div class="item_image">
+                        <img class="product-img" src="../assets/Vespa Scooter.webp" alt="">
+                    </div>
+                    <div class="item_details">
+                        <ul>
+                            <li>
+                                <h1 class="item_title">Vespa Sprint</h1>
+                            </li>
+                            <li>
+                                <p class="item_description">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, nemo? Veritatis atque
+                                    adipisci, voluptas itaque distinctio nihil! Quo repudiandae est optio quae voluptate,
+                                    quibusdam corrupti a perferendis sapiente distinctio nihil ea quam voluptas amet
+                                    voluptatem vero quasi, aliquid assumenda, dolore suscipit facilis id modi. Iure nemo
+                                    officia voluptatum illum similique.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="user_inputs">
+                        <button class="item_reserveren">Reserveer</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" id="_vespa_">
+                <div class="card">
+                    <div class="item_image">
+                        <img class="product-img" src="../assets/Vespa Scooter.webp" alt="">
+                    </div>
+                    <div class="item_details">
+                        <ul>
+                            <li>
+                                <h1 class="item_title">Vespa</h1>
+                            </li>
+                            <li>
+                                <p class="item_description">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, nemo? Veritatis atque
+                                    adipisci, voluptas itaque distinctio nihil! Quo repudiandae est optio quae voluptate,
+                                    quibusdam corrupti a perferendis sapiente distinctio nihil ea quam voluptas amet
+                                    voluptatem vero quasi, aliquid assumenda, dolore suscipit facilis id modi. Iure nemo
+                                    officia voluptatum illum similique.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="user_inputs">
+                        <button class="item_reserveren">Reserveer</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="_piaggio_zip">
+                <div class="card">
+                    <div class="item_image">
+                        <img class="product-img" src="../assets/Vespa Scooter.webp" alt="">
+                    </div>
+                    <div class="item_details">
+                        <ul>
+                            <li>
+                                <h1 class="item_title">Piaggio zip</h1>
+                            </li>
+                            <li>
+                                <p class="item_description">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, nemo? Veritatis atque
+                                    adipisci, voluptas itaque distinctio nihil! Quo repudiandae est optio quae voluptate,
+                                    quibusdam corrupti a perferendis sapiente distinctio nihil ea quam voluptas amet
+                                    voluptatem vero quasi, aliquid assumenda, dolore suscipit facilis id modi. Iure nemo
+                                    officia voluptatum illum similique.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="user_inputs">
+                        <button class="item_reserveren">Reserveer</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="_piaggio_4t">
+                <div class="card">
+                    <div class="item_image">
+                        <img class="product-img" src="../assets/Vespa Scooter.webp" alt="">
+                    </div>
+                    <div class="item_details">
+                        <ul>
+                            <li>
+                                <h1 class="item_title">Piaggio</h1>
+                            </li>
+                            <li>
+                                <p class="item_description">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, nemo? Veritatis atque
+                                    adipisci, voluptas itaque distinctio nihil! Quo repudiandae est optio quae voluptate,
+                                    quibusdam corrupti a perferendis sapiente distinctio nihil ea quam voluptas amet
+                                    voluptatem vero quasi, aliquid assumenda, dolore suscipit facilis id modi. Iure nemo
+                                    officia voluptatum illum similique.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="user_inputs">
+                        <button class="item_reserveren">Reserveer</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="_yamaha_">
+                <div class="card">
+                    <div class="item_image">
+                        <img class="product-img" src="../assets/Vespa Scooter.webp" alt="">
+                    </div>
+                    <div class="item_details">
+                        <ul>
+                            <li>
+                                <h1 class="item_title">Yamaha</h1>
+                            </li>
+                            <li>
+                                <p class="item_description">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, nemo? Veritatis atque
+                                    adipisci, voluptas itaque distinctio nihil! Quo repudiandae est optio quae voluptate,
+                                    quibusdam corrupti a perferendis sapiente distinctio nihil ea quam voluptas amet
+                                    voluptatem vero quasi, aliquid assumenda, dolore suscipit facilis id modi. Iure nemo
+                                    officia voluptatum illum similique.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="user_inputs">
+                        <button class="item_reserveren">Reserveer</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="_yamaha_xmax">
+                <div class="card">
+                    <div class="item_image">
+                        <img class="product-img" src="../assets/Vespa Scooter.webp" alt="">
+                    </div>
+                    <div class="item_details">
+                        <ul>
+                            <li>
+                                <h1 class="item_title">Yamaha Xmax</h1>
+                            </li>
+                            <li>
+                                <p id="item_description">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, nemo? Veritatis atque
+                                    adipisci, voluptas itaque distinctio nihil! Quo repudiandae est optio quae voluptate,
+                                    quibusdam corrupti a perferendis sapiente distinctio nihil ea quam voluptas amet
+                                    voluptatem vero quasi, aliquid assumenda, dolore suscipit facilis id modi. Iure nemo
+                                    officia voluptatum illum similique.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="user_inputs">
+                        <button class="item_reserveren">Reserveer</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="_kymco_">
+                <div class="card">
+                    <div class="item_image">
+                        <img class="product-img" src="../assets/Vespa Scooter.webp" alt="">
+                    </div>
+                    <div class="item_details">
+                        <ul>
+                            <li>
+                                <h1 class="item_title">Kymco</h1>
+                            </li>
+                            <li>
+                                <p class="item_description">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, nemo? Veritatis atque
+                                    adipisci, voluptas itaque distinctio nihil! Quo repudiandae est optio quae voluptate,
+                                    quibusdam corrupti a perferendis sapiente distinctio nihil ea quam voluptas amet
+                                    voluptatem vero quasi, aliquid assumenda, dolore suscipit facilis id modi. Iure nemo
+                                    officia voluptatum illum similique.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="user_inputs">
+                        <button class="item_reserveren">Reserveer</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="_kymco_125_">
+                <div class="card">
+                    <div class="item_image">
+                        <img class="product-img" src="../assets/Vespa Scooter.webp" alt="">
+                    </div>
+                    <div class="item_details">
+                        <ul>
+                            <li>
+                                <h1 class="item_title">Kymco</h1>
+                            </li>
+                            <li>
+                                <p class="item_description">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, nemo? Veritatis atque
+                                    adipisci, voluptas itaque distinctio nihil! Quo repudiandae est optio quae voluptate,
+                                    quibusdam corrupti a perferendis sapiente distinctio nihil ea quam voluptas amet
+                                    voluptatem vero quasi, aliquid assumenda, dolore suscipit facilis id modi. Iure nemo
+                                    officia voluptatum illum similique.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="user_inputs">
+                        <button class="item_reserveren">Reserveer</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+
+
+<div id="naarBoven" onclick="topFunction()">
+    <p><i class="arrow up"></i></p>
+</div>
+</body>
+<footer>
+    <div class="footer" style="width: 80%">
+        <div class="flex center">
+            <div class="margin EenDerde">
+                <p class="footer">Maandag: gesloten</p>
+                <p class="footer">Dinsdag - Zaterdag: 8u-18u30</p>
+                <p class="footer">Zondag: 9u-20u</p>
+            </div>
+
+            <div class="margin EenDerde">
+                <p class="footer">Kempische Steenweg 293, 3500 Hasselt</p>
+                <p class="footer">Tel: +0486 62 52 24</p>
+                <p class="footer">E-mail: scobielteam11@gmail.com</p>
+            </div>
+
+            <div class="margin EenDerde">
+                <a class="footer" href="../Homepagina.html">Home</a>
+                <a class="footer" href="../Over%20ons_Pagina/Over%20ons.html">Over ons</a>
+                <a class="footer" href="./Product.html">Reserveer nu</a>
+            </div>
+        </div>
+
+        <div class="margin center">
+            <p class="footer">Scobiel © 2022 – Alle rechter voorbehouden.</p>
+            <p class="footer">Webshop gemaakt door Team11</p>
+        </div>
+    </div>
+</footer>
+
+<script src="../Homepagina.js"></script>
+</html>

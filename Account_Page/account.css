@@ -1,0 +1,143 @@
+/*======BODY======*/
+
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background: #1a1a1a;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.top{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+#terugNavigeren{
+    background: #293133;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    padding: 0 0 50px 15px;
+    margin: auto 20px auto 0;
+}
+#terugNavigeren:hover{
+    border: #0082e6 2px solid;
+}
+.arrow {
+    text-align: center;
+    border: solid black;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 4px;
+    margin: auto;
+
+}
+
+.left {
+    transform: rotate(-225deg);
+    -webkit-transform: rotate(-225deg);
+}
+i{
+    height: 10px;
+}
+.account-title{
+    color: white;
+    font-size: 15px ;
+}
+
+
+
+.info-container{
+    margin: 0 auto;
+    background: #293133;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    width: 75%;
+    border-radius: 20px;
+    padding: 10px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+
+}
+
+.info-titel{
+    color: gray;
+}
+p{
+    color: white;
+}
+.bewerken {
+    margin: auto 10px auto 0;
+}
+.knop button{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background: #0082e6;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+}
+.knop button:hover{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background: #293133;
+    border: 2px solid #0082e6;
+}
+.submit_naam,
+.submit_email{
+    display: none;
+}
+#input_email{
+    display: none;
+    margin-bottom: 10px;
+}
+#input_naam{
+    display: none;
+    margin-bottom: 10px;
+}
+.account_naam input{
+    display: none;
+}
+.uitloggen{
+    text-align: center;
+    margin: 20px auto;
+    width: 25%;
+}
+.uitloggen button{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    background: #0082e6;
+    padding: 10px 30px 10px 30px;
+    border-radius: 15px;
+    border: none;
+}
+.uitloggen button:hover{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background: #293133;
+    border: 3px solid #0082e6;
+}

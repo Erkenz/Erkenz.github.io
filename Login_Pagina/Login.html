@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./../assets/scooter_Logo_V3.jpeg" type="image/x-icon">
+    <link href='https://css.gg/css' rel='stylesheet'>
+    <link rel="stylesheet" href="LoginStyle.css">
+</head>
+
+<body>
+    <div class="containerkeuze">
+        <button><h2 id="loginBtn">Aanmelden</h2></button>
+        <button><h2 id="signinBtn">Word lid</h2></button>
+    </div>
+    <div id="cfLogin" class="containerform">
+        <form id="loginForm">
+            <h2 id="logintext">Login</h2>
+            <button id="submitLoginBtn" class="submit"><i class="gg-lock-unlock"></i></button>
+            <input type="email" id="emailLogin" name="emailLogin" placeholder="E-mailadres" required/>
+            <input type="password" id="passLogin" name="passLogin" placeholder="Wachtwoord" required/>
+            <div id="loginMessage">
+                <h3>Inlog gegevens kloppen niet</h3>
+            </div>
+        </form>
+    </div>
+    <div id="cfRegister" class="containerform">
+        <form id="registerForm">
+            <h2>Registreer</h2>
+            <button id="submitRegisterBtn" class="submit"><i class="gg-lock"></i></button>
+            <input type="text" id="user" name="user" placeholder="Gebruikersnaam" required/>
+            <input type="email" id="email" name="email" placeholder="E-mail" required/>
+            <input type="password" id="pass" name="pass" placeholder="Wachtwoord" required/>
+            <input type="password" id="passConfirm" placeholder="Bevestig wachtwoord" required/>
+            <div id="message">
+                <h3>Wachtwoord komt niet overeen!</h3>
+            </div>
+            <div id="emailbestaatal">
+                <h3>Een ander account met hetzelfde email bestaat al <span><a href="../Vergeten_Pagina/Vergeten.html">klik hier</a> als u je wachtwoord hebt vergeten.</span> </h3>
+            </div>
+        </form>
+    </div>
+
+
+
+
+    <script src="LoginScript.js"></script>
+</body>
+
+</html>

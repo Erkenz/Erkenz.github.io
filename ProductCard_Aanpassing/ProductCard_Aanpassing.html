@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ProductCard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c65f6509a3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../Homepagina.css">
+    <link rel="stylesheet" href="ProductCard_Aanpassing.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="nav-container">
+    <div class="navbar">
+        <div class="inner_navbar">
+            <div class="logo">
+                <img src="../assets/scobiel_Logo_final_v2.png" alt="">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a class="active menu-item" href="../Homepagina.html">Home</a></li>
+                    <li><a class="menu-item" href="../Over%20ons_Pagina/Over%20ons.html">Over ons</a></li>
+                    <li><a class="menu-item" href="../Scooters_Pagina/Scooters.html">Scooters</a></li>
+                    <li><a class="menu-item" href="../Merken_Pagina/Merken.html">Merken</a></li>
+                    <li><a class="dropdown-item menu-item reserveren" href="../Product_Pagina/Product.html">Reserveer
+                        nu</a></li>
+                    <li><a class="dropdown-item menu-item" href="../Login_Pagina/Login.html">Login / Registreren</a>
+                    </li>
+                </ul>
+            </div>
+
+            <a class="button" href="../Product_Pagina/Product.html">Reserveer nu</a>
+
+            <div class="hamburger" onclick="toggleStyleNav(true)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<main>
+    <div id="product_info">
+        <div class="productkaarten">
+            <div class="product_geheel1">
+                <div class="scooterModel">
+                    <img id="img1" class="sct1" src="Vespa_Sprint_Model1_Transparant.png" alt="Model1">
+                    <img id="img2" class="sct2" src="Vespa_Sprint_Model2_Transparant.png" alt="Model2">
+                    <img id="img3" class="sct3" src="Vespa_Sprint_Model3_Transparant.png" alt="Model3">
+                </div>
+                <div class="prijs">
+                    <p>Huurprijs<br>€100 per dag</p>
+                </div>
+            </div>
+            <div id="product_geheel2">
+            <div id="totaal-info">
+            <div class="img_btn">
+                <p>
+                    <button id="btn_img_1"></button>
+                    <button id="btn_img_2"></button>
+                    <button id="btn_img_3"></button>
+                </p>
+            </div>
+                <div class="informatie">
+                    <h1>Vespa Sprint <span class="letterkleur">S</span> 125</h1>
+                    <p>De Vespa Sprint S 125 accentueert maximaal de sportieve stijlelementen
+                        en is de pittigste versie van de small body-familie van Vespa. <br><br>
+                        Deze Vespa's zijn ideaal als huurmodel. Ze zijn licht, wendbaar en gemakkelijk te besturen.
+                        Ook is het mogelijk met twee personen op deze modellen plaats te nemen, zelf op de 50cc.
+                        Let wel dat er voor het besturen van een Vespa met een passagier achterop iets ervaring
+                        wenselijk is.</p>
+                    <br><br>
+                </div>
+                <div class="kenmerken">
+                    <div class="spatie1"></div>
+                    <div class="opsomming">
+                        <ul>
+                            <i class="fas fa-user-friends">
+                                <li class="lijst">Maximum passagiers: 2 personen</li>
+                            </i>
+
+                            <i class="fa fa-dashboard">
+                                <li class="lijst">Topsnelheid: 110 km/uur</li>
+                            </i>
+                            <i class="fas fa-map-marker-alt">
+                                <li class="lijst">Maximum passagiers: 2 personen</li>
+                            </i>
+                            <i class="fa fa-drivers-license-o">
+                                <li class="lijst">Rijbewijs A1</li>
+                            </i>
+                            <i class="fa fa-vcard-o">
+                                <li class="lijst">Volledig verzekerd</li>
+                            </i>
+                            <i class="fas fa-hard-hat">
+                                <li class="lijst">Helmen inbegrepen</li>
+                            </i>
+                        </ul>
+                    </div>
+                    <div class="spatie2"></div>
+                </div>
+                <div class="reserveren">
+                    <div class="reserveer-meer_info">
+                        <p><a href="">Reserveren</a></p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="product_info1">
+        <div class="productkaarten1">
+            <div class="product_geheel1">
+                <div class="scooterModel">
+                    <img id="img4" class="sct4" src="Vespa_Primavera_Model1_Transparant.png" alt="Model1">
+                    <img id="img5" class="sct5" src="Vespa_Primavera_Model2_Transparant.png" alt="Model2">
+                    <img id="img6" class="sct6" src="Vespa_Primavera_Model3_Transparant.png" alt="Model3">
+                </div>
+                <div class="prijs1">
+                    <p>Huurprijs<br>€100 per dag</p>
+                </div>
+            </div>
+            <div id="product_geheel3">
+                <div id="totaal-info1">
+                    <div class="img_btn1">
+                        <p>
+                            <button id="btn_img_4"></button>
+                            <button id="btn_img_5"></button>
+                            <button id="btn_img_6"></button>
+                        </p>
+                    </div>
+                    <div class="informatie">
+                        <h1>Vespa Primavera</h1>
+                        <p>De Vespa Primavera is een iconisch symbool van zijn tijd en zoeft door de straten van de eenentwintigste eeuw met dezelfde behendigheid
+                            en dynamiek als de oorspronkelijke legende die een revolutie veroorzaakte in de stedelijke mobiliteit van de Swinging Sixties.
+                            <br><br>
+                            Deze Vespa's zijn ideaal als huurmodel. Ze zijn licht, wendbaar en gemakkelijk te besturen.
+                            Ook is het mogelijk met twee personen op deze modellen plaats te nemen.</p>
+                        <br><br>
+                    </div>
+                    <div class="kenmerken">
+                        <div class="spatie1"></div>
+                        <div class="opsomming">
+                            <ul>
+                                <i class="fas fa-user-friends">
+                                    <li class="lijst">Maximum passagiers: 2 personen</li>
+                                </i>
+
+                                <i class="fa fa-dashboard">
+                                    <li class="lijst">Topsnelheid: 45 km/uur</li>
+                                </i>
+                                <i class="fas fa-map-marker-alt">
+                                    <li class="lijst">Maximum passagiers: 2 personen</li>
+                                </i>
+                                <i class="fa fa-drivers-license-o">
+                                    <li class="lijst">Rijbewijs B</li>
+                                </i>
+                                <i class="fa fa-vcard-o">
+                                    <li class="lijst">Volledig verzekerd</li>
+                                </i>
+                                <i class="fas fa-hard-hat">
+                                    <li class="lijst">Helmen inbegrepen</li>
+                                </i>
+                            </ul>
+                        </div>
+                        <div class="spatie2"></div>
+                    </div>
+                    <div class="reserveren">
+                        <div class="reserveer-meer_info">
+                            <p><a href="">Reserveren</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="naarBoven" onclick="topFunction()">
+        <p><i class="arrow up"></i></p>
+    </div>
+</main>
+<footer>
+    <div class="footer" style="width: 80%">
+        <div class="flex center">
+            <div class="margin EenDerde">
+                <p class="footer">Maandag: gesloten</p>
+                <p class="footer">Dinsdag - Zaterdag: 8u-18u30</p>
+                <p class="footer">Zondag: 9u-20u</p>
+            </div>
+
+            <div class="margin EenDerde">
+                <p class="footer">Kempische Steenweg 293, 3500 Hasselt</p>
+                <p class="footer">Tel: +0486 62 52 24</p>
+                <p class="footer">E-mail: scobielteam11@gmail.com</p>
+            </div>
+
+            <div class="margin EenDerde">
+                <a class="footer" href="../Homepagina.html">Home</a>
+                <a class="footer" href="../Over%20ons_Pagina/Over%20ons.html">Over ons</a>
+                <a class="footer" href="../Product_Pagina/Product.html">Reserveer nu</a>
+            </div>
+        </div>
+
+        <div class="margin center">
+            <p class="footer">Scobiel © 2022 – Alle rechter voorbehouden.</p>
+            <p class="footer">Webshop gemaakt door Team11</p>
+        </div>
+    </div>
+</footer>
+<script src="ProductCard_Aanpassing.js"></script>
+<!--<script src="../Homepagina.js"></script>-->
+</body>
+</html>
